@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:text="Login"/>
+
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edUsernameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassowrdLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+        <Button
+            android:background="@drawable/bg_edtext"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnSigninLogin"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="      Sign In      "
+            android:textAllCaps="false"/>
+        <Button
+            android:theme="@style/Button.White"
+            android:drawableLeft="@drawable/ic_icons8_google"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:id="@+id/signInGoogle"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sign In with google"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "/>
+
+        <TextView
+            android:id="@+id/btnSignUpLogin"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgBackSignUp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:text="Create an account"/>
+
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edBornDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal lahir"
+            android:inputType="date"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassowrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+        <EditText
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edCpassowrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"/>
+        <Button
+            android:background="@drawable/bg_edtext"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnSignUp"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="      Sign Up      "
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>
+
+
+  </LinearLayout>
