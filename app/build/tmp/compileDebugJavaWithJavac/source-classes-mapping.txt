@@ -1,0 +1,2 @@
+com/example/prkuliah/BuildConfig.java
+ com.example.prkuliah.BuildConfig
