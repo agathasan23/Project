@@ -1846,6 +1846,7 @@ int drawable test_custom_background 0x7f07009c
 int drawable tooltip_frame_dark 0x7f07009d
 int drawable tooltip_frame_light 0x7f07009e
 int drawable vector 0x7f07009f
+int drawable vector2 0x7f0700a0
 int font googlesans_bold 0x7f080000
 int font googlesans_regular 0x7f080001
 int id ALT 0x7f090000
@@ -2413,6 +2414,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_add_event 0x7f0c0074
 int layout activity_dashboard 0x7f0c001c
 int layout activity_login 0x7f0c001d
 int layout activity_signup 0x7f0c001e

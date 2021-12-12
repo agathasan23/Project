@@ -1,4 +1,4 @@
-#Tue Nov 16 16:35:15 ICT 2021
+#Wed Nov 17 19:37:12 ICT 2021
 base.2=D\:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 path.2=11/classes.dex
 base.1=D\:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

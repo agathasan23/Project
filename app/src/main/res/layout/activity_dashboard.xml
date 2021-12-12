@@ -26,11 +26,13 @@
                 android:layout_height="100px"/>
             <EditText
                 android:layout_marginTop="5dp"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="20dp"
                 android:layout_gravity="center"
                 android:padding="5dp"
+                android:layout_marginBottom="5dp"
                 android:background="@drawable/bg_edtext"
                 android:layout_width="240dp"
+                android:elevation="5dp"
                 android:hint="Search"
                 android:layout_height="wrap_content"/>
             <ImageView
@@ -42,10 +44,8 @@
                 android:layout_height="100px"/>
         </LinearLayout>
 
-
-
         <FrameLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:id="@+id/fmViewDashboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -302,6 +302,7 @@
             android:id="@+id/rvListEvent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            tools:itemCount="3"
             tools:listitem="@layout/item_recomend_event">
 
         </androidx.recyclerview.widget.RecyclerView>

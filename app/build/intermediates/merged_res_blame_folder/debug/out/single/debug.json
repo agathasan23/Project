@@ -48,6 +48,10 @@
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\ic_baseline_perm_contact_calendar_24.xml"
     },
     {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_event.xml.flat",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_add_event.xml"
+    },
+    {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector2.png.flat",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\vector2.png"
     },
     {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_date_range_24.xml.flat",

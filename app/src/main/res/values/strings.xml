@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">PrKuliah</string>
+    <string name="app_name">Eventin</string>
+
+    <string-array name="kategori">
+        <item>hahahah</item>
+        <item>hihihihi</item>
+        <item>heheheh</item>
+    </string-array>
 </resources>
