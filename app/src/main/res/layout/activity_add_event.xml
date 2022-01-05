@@ -48,30 +48,30 @@
             android:layout_marginTop="5dp"/>
 
 
-            <EditText
-                android:id="@+id/edEventName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_edtext"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="40dp"
-                android:elevation="5dp"
-                android:hint="Event Name"
-                android:padding="10dp" />
+        <EditText
+            android:id="@+id/edEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edtext"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="5dp"
+            android:hint="Event Name"
+            android:padding="10dp" />
 
 
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="40dp"
-                android:elevation="5dp"
-                android:background="@drawable/bg_spinner"
-                android:entries="@array/kategori"
-                android:id="@+id/spCategory"
-                />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="5dp"
+            android:background="@drawable/bg_spinner"
+            android:entries="@array/kategori"
+            android:id="@+id/spCategory"
+            />
 
         <EditText
             android:id="@+id/edPlace"
@@ -123,16 +123,16 @@
 
 
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnCreateEvent"
-                android:layout_width="300dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_button"
-                android:text="Create Evnt"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCreateEvent"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button"
+            android:text="Create Evnt"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
 
 
 

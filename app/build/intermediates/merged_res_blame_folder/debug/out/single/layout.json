@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_event.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_add_event.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_category.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_recomend_event.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\item_recomend_event.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dashboard.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    }
+]

@@ -6,6 +6,9 @@ plugins {
 android {
     compileSdk 31
 
+    viewBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.example.prkuliah"
         minSdk 21

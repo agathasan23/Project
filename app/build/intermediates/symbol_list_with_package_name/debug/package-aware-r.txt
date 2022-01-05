@@ -57,6 +57,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array kategori
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1778,6 +1779,7 @@ drawable avd_show_password
 drawable bg_btngoogle
 drawable bg_button
 drawable bg_edtext
+drawable bg_spinner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1787,11 +1789,17 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable businessman
+drawable category_competiion
+drawable category_expo
+drawable category_job
+drawable category_seminar
+drawable category_workshop
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
 drawable ic_baseline_add_circle_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_date_range_24
@@ -1810,6 +1818,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable insert
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1948,6 +1957,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnCreateEvent
+id btnInsertImg
 id btnSignUp
 id btnSignUpLogin
 id btnSigninLogin
@@ -2029,11 +2040,16 @@ id easeInOut
 id easeOut
 id east
 id edBornDate
+id edCloseRegis
 id edCpassowrd
 id edEmail
+id edEventName
 id edName
 id edPassowrd
 id edPassowrdLogin
+id edPlace
+id edPrice
+id edSlot
 id edUsername
 id edUsernameLogin
 id edit_query
@@ -2081,6 +2097,8 @@ id ignore
 id ignoreRequest
 id image
 id imgAddEvent
+id imgBackAddEvent
+id imgBackCategory
 id imgBackSignUp
 id imgNavigation
 id immediateStop
@@ -2248,6 +2266,7 @@ id snackbar_text
 id snap
 id snapMargins
 id south
+id spCategory
 id spacer
 id special_effects_controller_view_tag
 id spline
@@ -2321,6 +2340,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCategory
 id tvNamaevent
 id tvPlace
 id tvPrice
@@ -2416,6 +2436,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_event
+layout activity_category
 layout activity_dashboard
 layout activity_login
 layout activity_signup

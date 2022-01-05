@@ -20,6 +20,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.PrKuliah" >
         <activity
+            android:name="com.example.prkuliah.Category"
+            android:exported="false" />
+        <activity
+            android:name="com.example.prkuliah.AddEvent"
+            android:exported="false" />
+        <activity
             android:name="com.example.prkuliah.Dashboard"
             android:exported="false" />
         <activity
