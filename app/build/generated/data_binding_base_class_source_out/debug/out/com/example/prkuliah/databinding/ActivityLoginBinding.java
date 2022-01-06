@@ -29,22 +29,22 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final AppCompatButton btnSigninLogin;
 
   @NonNull
-  public final EditText edPassowrdLogin;
+  public final EditText edEmailLogin;
 
   @NonNull
-  public final EditText edUsernameLogin;
+  public final EditText edPassowrdLogin;
 
   @NonNull
   public final MaterialButton signInGoogle;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull TextView btnSignUpLogin,
-      @NonNull AppCompatButton btnSigninLogin, @NonNull EditText edPassowrdLogin,
-      @NonNull EditText edUsernameLogin, @NonNull MaterialButton signInGoogle) {
+      @NonNull AppCompatButton btnSigninLogin, @NonNull EditText edEmailLogin,
+      @NonNull EditText edPassowrdLogin, @NonNull MaterialButton signInGoogle) {
     this.rootView = rootView;
     this.btnSignUpLogin = btnSignUpLogin;
     this.btnSigninLogin = btnSigninLogin;
+    this.edEmailLogin = edEmailLogin;
     this.edPassowrdLogin = edPassowrdLogin;
-    this.edUsernameLogin = edUsernameLogin;
     this.signInGoogle = signInGoogle;
   }
 
@@ -87,15 +87,15 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edPassowrdLogin;
-      EditText edPassowrdLogin = ViewBindings.findChildViewById(rootView, id);
-      if (edPassowrdLogin == null) {
+      id = R.id.edEmailLogin;
+      EditText edEmailLogin = ViewBindings.findChildViewById(rootView, id);
+      if (edEmailLogin == null) {
         break missingId;
       }
 
-      id = R.id.edUsernameLogin;
-      EditText edUsernameLogin = ViewBindings.findChildViewById(rootView, id);
-      if (edUsernameLogin == null) {
+      id = R.id.edPassowrdLogin;
+      EditText edPassowrdLogin = ViewBindings.findChildViewById(rootView, id);
+      if (edPassowrdLogin == null) {
         break missingId;
       }
 
@@ -106,7 +106,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnSignUpLogin, btnSigninLogin,
-          edPassowrdLogin, edUsernameLogin, signInGoogle);
+          edEmailLogin, edPassowrdLogin, signInGoogle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

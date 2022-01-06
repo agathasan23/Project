@@ -4,12 +4,12 @@
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector.png.flat",
-        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\vector.png"
-    },
-    {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector.png.flat",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\vector.png"
     },
     {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
@@ -60,12 +60,12 @@
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\ic_baseline_perm_contact_calendar_24.xml"
     },
     {
-        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_seminar.png.flat",
-        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\category_seminar.png"
-    },
-    {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_job.png.flat",
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\category_job.png"
+    },
+    {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_seminar.png.flat",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\drawable\\category_seminar.png"
     },
     {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_event.xml.flat",

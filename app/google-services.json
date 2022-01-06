@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "480740067809",
+    "project_id": "eventin-56d6a",
+    "storage_bucket": "eventin-56d6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480740067809:android:878d8ac0614723f1e5eaa0",
+        "android_client_info": {
+          "package_name": "com.example.prkuliah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480740067809-e9e7sc18kd8ae3ppkdokqica4vik1cl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt19gIZ8a2WkwQbXAMERWr_m5Ip_3oQNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480740067809-e9e7sc18kd8ae3ppkdokqica4vik1cl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

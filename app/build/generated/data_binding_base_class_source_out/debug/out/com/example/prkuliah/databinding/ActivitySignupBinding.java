@@ -25,38 +25,20 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final AppCompatButton btnSignUp;
 
   @NonNull
-  public final EditText edBornDate;
-
-  @NonNull
-  public final EditText edCpassowrd;
-
-  @NonNull
   public final EditText edEmail;
-
-  @NonNull
-  public final EditText edName;
 
   @NonNull
   public final EditText edPassowrd;
 
   @NonNull
-  public final EditText edUsername;
-
-  @NonNull
   public final ImageView imgBackSignUp;
 
   private ActivitySignupBinding(@NonNull LinearLayout rootView, @NonNull AppCompatButton btnSignUp,
-      @NonNull EditText edBornDate, @NonNull EditText edCpassowrd, @NonNull EditText edEmail,
-      @NonNull EditText edName, @NonNull EditText edPassowrd, @NonNull EditText edUsername,
-      @NonNull ImageView imgBackSignUp) {
+      @NonNull EditText edEmail, @NonNull EditText edPassowrd, @NonNull ImageView imgBackSignUp) {
     this.rootView = rootView;
     this.btnSignUp = btnSignUp;
-    this.edBornDate = edBornDate;
-    this.edCpassowrd = edCpassowrd;
     this.edEmail = edEmail;
-    this.edName = edName;
     this.edPassowrd = edPassowrd;
-    this.edUsername = edUsername;
     this.imgBackSignUp = imgBackSignUp;
   }
 
@@ -93,27 +75,9 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edBornDate;
-      EditText edBornDate = ViewBindings.findChildViewById(rootView, id);
-      if (edBornDate == null) {
-        break missingId;
-      }
-
-      id = R.id.edCpassowrd;
-      EditText edCpassowrd = ViewBindings.findChildViewById(rootView, id);
-      if (edCpassowrd == null) {
-        break missingId;
-      }
-
       id = R.id.edEmail;
       EditText edEmail = ViewBindings.findChildViewById(rootView, id);
       if (edEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.edName;
-      EditText edName = ViewBindings.findChildViewById(rootView, id);
-      if (edName == null) {
         break missingId;
       }
 
@@ -123,20 +87,14 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edUsername;
-      EditText edUsername = ViewBindings.findChildViewById(rootView, id);
-      if (edUsername == null) {
-        break missingId;
-      }
-
       id = R.id.imgBackSignUp;
       ImageView imgBackSignUp = ViewBindings.findChildViewById(rootView, id);
       if (imgBackSignUp == null) {
         break missingId;
       }
 
-      return new ActivitySignupBinding((LinearLayout) rootView, btnSignUp, edBornDate, edCpassowrd,
-          edEmail, edName, edPassowrd, edUsername, imgBackSignUp);
+      return new ActivitySignupBinding((LinearLayout) rootView, btnSignUp, edEmail, edPassowrd,
+          imgBackSignUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

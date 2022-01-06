@@ -1,5 +1,3 @@
-com/example/prkuliah/BuildConfig.java
- com.example.prkuliah.BuildConfig
 com/example/prkuliah/databinding/ActivityAddEventBinding.java
  com.example.prkuliah.databinding.ActivityAddEventBinding
 com/example/prkuliah/databinding/ActivityLoginBinding.java
@@ -12,3 +10,5 @@ com/example/prkuliah/databinding/ItemRecomendEventBinding.java
  com.example.prkuliah.databinding.ItemRecomendEventBinding
 com/example/prkuliah/databinding/ActivitySignupBinding.java
  com.example.prkuliah.databinding.ActivitySignupBinding
+com/example/prkuliah/BuildConfig.java
+ com.example.prkuliah.BuildConfig
