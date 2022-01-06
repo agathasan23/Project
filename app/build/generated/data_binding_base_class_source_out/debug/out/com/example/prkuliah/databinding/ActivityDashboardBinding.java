@@ -24,6 +24,9 @@ public final class ActivityDashboardBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final ImageView btnLogout;
+
+  @NonNull
   public final CardView cView1;
 
   @NonNull
@@ -48,20 +51,18 @@ public final class ActivityDashboardBinding implements ViewBinding {
   public final ImageView imgAddEvent;
 
   @NonNull
-  public final ImageView imgNavigation;
-
-  @NonNull
   public final GridLayout mainGrid2;
 
   @NonNull
   public final RecyclerView rvListEvent;
 
-  private ActivityDashboardBinding(@NonNull ScrollView rootView, @NonNull CardView cView1,
-      @NonNull CardView cView2, @NonNull CardView cView3, @NonNull CardView cView4,
-      @NonNull CardView cView5, @NonNull CardView cView6, @NonNull FrameLayout fmViewDashboard,
-      @NonNull ImageView imgAddEvent, @NonNull ImageView imgNavigation,
+  private ActivityDashboardBinding(@NonNull ScrollView rootView, @NonNull ImageView btnLogout,
+      @NonNull CardView cView1, @NonNull CardView cView2, @NonNull CardView cView3,
+      @NonNull CardView cView4, @NonNull CardView cView5, @NonNull CardView cView6,
+      @NonNull FrameLayout fmViewDashboard, @NonNull ImageView imgAddEvent,
       @NonNull GridLayout mainGrid2, @NonNull RecyclerView rvListEvent) {
     this.rootView = rootView;
+    this.btnLogout = btnLogout;
     this.cView1 = cView1;
     this.cView2 = cView2;
     this.cView3 = cView3;
@@ -70,7 +71,6 @@ public final class ActivityDashboardBinding implements ViewBinding {
     this.cView6 = cView6;
     this.fmViewDashboard = fmViewDashboard;
     this.imgAddEvent = imgAddEvent;
-    this.imgNavigation = imgNavigation;
     this.mainGrid2 = mainGrid2;
     this.rvListEvent = rvListEvent;
   }
@@ -102,6 +102,12 @@ public final class ActivityDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnLogout;
+      ImageView btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
       id = R.id.cView1;
       CardView cView1 = ViewBindings.findChildViewById(rootView, id);
       if (cView1 == null) {
@@ -150,12 +156,6 @@ public final class ActivityDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imgNavigation;
-      ImageView imgNavigation = ViewBindings.findChildViewById(rootView, id);
-      if (imgNavigation == null) {
-        break missingId;
-      }
-
       id = R.id.mainGrid2;
       GridLayout mainGrid2 = ViewBindings.findChildViewById(rootView, id);
       if (mainGrid2 == null) {
@@ -168,8 +168,8 @@ public final class ActivityDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDashboardBinding((ScrollView) rootView, cView1, cView2, cView3, cView4,
-          cView5, cView6, fmViewDashboard, imgAddEvent, imgNavigation, mainGrid2, rvListEvent);
+      return new ActivityDashboardBinding((ScrollView) rootView, btnLogout, cView1, cView2, cView3,
+          cView4, cView5, cView6, fmViewDashboard, imgAddEvent, mainGrid2, rvListEvent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

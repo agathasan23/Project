@@ -8,6 +8,10 @@
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_add_event.xml"
     },
     {
+        "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header.xml",
+        "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
         "merged": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_category.xml",
         "source": "D:\\kuliah\\mobile programming\\projek\\Project\\app\\src\\main\\res\\layout\\activity_category.xml"
     },

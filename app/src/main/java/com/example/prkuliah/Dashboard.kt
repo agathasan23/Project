@@ -3,8 +3,12 @@ package com.example.prkuliah
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.ActionBarDrawerToggle
 import com.example.prkuliah.databinding.ActivityDashboardBinding
+import com.google.firebase.auth.FirebaseAuth
 
 
 class Dashboard : AppCompatActivity() {
@@ -15,7 +19,11 @@ class Dashboard : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
 
-
+        binding.btnLogout.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+            startActivity(Intent(this,Login::class.java))
+            finish()
+        }
         binding.imgAddEvent.setOnClickListener(View.OnClickListener {
             val intent = Intent(this,AddEvent::class.java)
             startActivity(intent)
@@ -58,4 +66,6 @@ class Dashboard : AppCompatActivity() {
         })
 
     }
+
+
 }

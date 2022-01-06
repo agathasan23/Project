@@ -2,6 +2,8 @@ com/example/prkuliah/databinding/ActivityAddEventBinding.java
  com.example.prkuliah.databinding.ActivityAddEventBinding
 com/example/prkuliah/databinding/ActivityLoginBinding.java
  com.example.prkuliah.databinding.ActivityLoginBinding
+com/example/prkuliah/databinding/NavHeaderBinding.java
+ com.example.prkuliah.databinding.NavHeaderBinding
 com/example/prkuliah/databinding/ActivityCategoryBinding.java
  com.example.prkuliah.databinding.ActivityCategoryBinding
 com/example/prkuliah/databinding/ActivityDashboardBinding.java
