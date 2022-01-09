@@ -112,7 +112,7 @@ class Login : AppCompatActivity() {
                                         Toast.LENGTH_SHORT
                                     ).show()
 
-                                    val intent = Intent(this@Login, Dashboard::class.java)
+                                    val intent = Intent(this@Login, BottomNav::class.java)
                                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                                     intent.putExtra("userId", FirebaseAuth.getInstance().currentUser!!.uid)
                                     intent.putExtra("email", email)
@@ -192,7 +192,7 @@ class Login : AppCompatActivity() {
                         "Logged In",
                         Toast.LENGTH_SHORT
                     ).show()
-                    val intent = Intent(this,Dashboard::class.java)
+                    val intent = Intent(this,BottomNav::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
 

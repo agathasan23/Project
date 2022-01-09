@@ -17,7 +17,6 @@ class Category : AppCompatActivity() {
 
         val intent = intent
 
-
         binding.tvCategory.text = intent.getIntExtra("categoryId",1).toString()
 
         binding.imgBackCategory.setOnClickListener(View.OnClickListener {

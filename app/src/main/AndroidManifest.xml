@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prkuliah">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".BaseApplication"
         android:allowBackup="true"
@@ -12,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrKuliah">
         <activity
+            android:name=".Event"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNav"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".Category"
             android:exported="false" />
         <activity
@@ -19,7 +28,7 @@
             android:exported="false" />
         <activity
             android:name=".Dashboard"
-            android:exported="false" />
+            android:exported="false"     />
         <activity
             android:name=".Login"
             android:exported="true">

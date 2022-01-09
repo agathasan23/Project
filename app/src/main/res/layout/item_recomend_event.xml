@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nama Organizer"
-                android:id="@+id/nOrganizer"
+                android:id="@+id/tvOrganizer"
                 />
 
         </LinearLayout>
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/kategori"
+                android:id="@+id/tvKategori"
                 android:text="Nama Kategori"
                 />
         </LinearLayout>
@@ -80,6 +80,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:id="@+id/fotoEvent"
                     android:src="@drawable/businessman"
                     />
             </androidx.cardview.widget.CardView>
@@ -99,12 +100,6 @@
                     android:text="Nama Event"
                     />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tvTglClose"
-                    android:text="Close register : "
-                    />
 
                 <TextView
                     android:layout_width="wrap_content"
